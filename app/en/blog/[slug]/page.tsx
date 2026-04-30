@@ -6,6 +6,10 @@ interface Props {
   params: { slug: string }
 }
 
+export async function generateStaticParams() {
+  return blogPosts.map((post) => ({ slug: post.slug }))
+}
+
 export async function generateMetadata({ params }: Props) {
   const post = blogPosts.find((p) => p.slug === params.slug)
   if (!post) return { title: 'Not Found' }
