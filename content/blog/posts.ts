@@ -1,0 +1,58 @@
+export const blogPosts = [
+  {
+    slug: 'paid-ads-vs-organic-growth-israeli-businesses',
+    title: { he: 'פרסום ממומן לעומת צמיחה אורגנית לעסקי שירות ישראלים', en: 'Paid Ads vs Organic Growth for Israeli Service Businesses' },
+    excerpt: { he: 'מה עובד יותר לעסקים קטנים בישראל — פרסום ממומן או צמיחה אורגנית? ניתוח מעשי.', en: 'What works better for small Israeli businesses — paid ads or organic growth? A practical analysis.' },
+    date: '2025-04-15',
+    category: 'Marketing',
+  },
+  {
+    slug: 'google-business-profile-vs-website',
+    title: { he: 'למה פרופיל Google Business שלך עשוי להיות חשוב יותר מהאתר שלך', en: 'Why Your Google Business Profile May Be More Important Than Your Website' },
+    excerpt: { he: 'רוב הלקוחות לא מגיעים דרך האתר שלך. הם מחפשים ב-Google ורואים את הפרופיל שלך קודם.', en: 'Most customers don\'t come through your website. They search on Google and see your profile first.' },
+    date: '2025-04-10',
+    category: 'Local SEO',
+  },
+  {
+    slug: 'ai-whatsapp-bots-stop-losing-leads',
+    title: { he: 'איך בוטי WhatsApp AI עוזרים לעסקים להפסיק לאבד לידים', en: 'How AI WhatsApp Bots Help Businesses Stop Losing Leads' },
+    excerpt: { he: 'לקוח שולח הודעה ומחכה לתשובה. אם התשובה לא מגיעה מהר — הוא עובר למתחרה.', en: 'A customer sends a message and waits for a response. If it doesn\'t come fast — they move to a competitor.' },
+    date: '2025-04-05',
+    category: 'AI Automation',
+  },
+  {
+    slug: 'what-is-geo-ai-search-visibility',
+    title: { he: 'מה זה GEO / נראות חיפוש AI?', en: 'What Is GEO / AI Search Visibility?' },
+    excerpt: { he: 'ChatGPT ו-Gemini כבר ממליצים על עסקים. האם שלך אחד מהם?', en: 'ChatGPT and Gemini already recommend businesses. Is yours one of them?' },
+    date: '2025-03-28',
+    category: 'GEO',
+  },
+  {
+    slug: 'google-reviews-local-businesses',
+    title: { he: 'איך ביקורות Google עוזרות לעסקים מקומיים לזכות ביותר לקוחות', en: 'How Google Reviews Help Local Businesses Win More Customers' },
+    excerpt: { he: '88% מהלקוחות בודקים ביקורות לפני שבוחרים עסק מקומי. אם אין לך מספיק ביקורות — אתה מפסיד.', en: '88% of customers check reviews before choosing a local business. If you don\'t have enough — you lose.' },
+    date: '2025-03-20',
+    category: 'Reviews',
+  },
+  {
+    slug: 'ai-voice-agents-hebrew-english',
+    title: { he: 'איך סוכני קול AI עונים לשיחות שלא נענו בעברית ובאנגלית', en: 'How AI Voice Agents Answer Missed Calls in Hebrew and English' },
+    excerpt: { he: 'כל שיחה שלא נענתה היא ליד פוטנציאלי שהלך לאיבוד. סוכן קול AI מבטיח שזה לא יקרה.', en: 'Every unanswered call is a potential lead lost. An AI voice agent ensures that doesn\'t happen.' },
+    date: '2025-03-15',
+    category: 'AI Automation',
+  },
+  {
+    slug: 'website-vs-landing-page-small-business',
+    title: { he: 'אתר לעומת דף נחיתה: מה עסק קטן באמת צריך?', en: 'Website vs Landing Page: What Does a Small Local Business Actually Need?' },
+    excerpt: { he: 'לא כל עסק צריך אתר מורכב. לפעמים דף נחיתה אחד ממיר יותר טוב מאתר של 10 עמודים.', en: 'Not every business needs a complex website. Sometimes one well-designed landing page converts better.' },
+    date: '2025-03-10',
+    category: 'Web Design',
+  },
+  {
+    slug: 'prepare-business-ai-search',
+    title: { he: 'איך להכין את העסק המקומי שלך לחיפוש AI', en: 'How to Prepare Your Local Business for AI Search' },
+    excerpt: { he: 'AI Search כבר כאן. ChatGPT, Perplexity ו-Gemini ממליצים על עסקים. האם שלך בולט?', en: 'AI Search is already here. ChatGPT, Perplexity and Gemini recommend businesses. Is yours visible?' },
+    date: '2025-03-01',
+    category: 'GEO',
+  },
+] as const
