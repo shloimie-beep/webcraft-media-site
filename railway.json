@@ -4,7 +4,7 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "HOSTNAME=0.0.0.0 PORT=8080 node .next/standalone/server.js",
+    "startCommand": "npx serve out -l 8080",
     "healthcheckPath": "/",
     "healthcheckTimeout": 300,
     "restartPolicyType": "ON_FAILURE",
